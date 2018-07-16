@@ -14,8 +14,7 @@ kittens.shift()
 }
 
 function appendKitten(name) {
-  var kittens2 = []
-  kittens2 = kittens
+  var kittens2 = kittens
   return kittens2.concat(name)
 }
 
