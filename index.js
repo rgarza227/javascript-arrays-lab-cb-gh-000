@@ -16,7 +16,7 @@ kittens.shift()
 function appendKitten(name) {
   var kittens2 = []
   kittens2 = kittens
-  return kittens2.cooncat(name)
+  return kittens2.concat(name)
 }
 
 function prependKitten(name){
