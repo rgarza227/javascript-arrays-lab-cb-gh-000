@@ -15,7 +15,8 @@ kittens.shift()
 
 function appendKitten(name) {
   mKittens = kittens
-  return mKittens.push(name)
+  mKittens.push(name)
+  return mKittens
 }
 
 function prependKitten(name){
