@@ -14,7 +14,7 @@ kittens.shift()
 }
 
 function appendKitten(name) {
-  kittens2 = kittens
+  var kittens2 = kittens
   return kittens2.push(name)
 }
 
